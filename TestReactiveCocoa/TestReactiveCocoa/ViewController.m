@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 
+static const NSString *kUserName = @"UserName";
+static const NSString *kPassword = @"Password";
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *accountTextField;

@@ -42,6 +42,9 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4OZ-qm-1sW">
                                 <rect key="frame" x="216" y="200" width="73" height="30"/>
                                 <state key="normal" title="Login"/>
+                                <connections>
+                                    <segue destination="8ye-Vh-ojc" kind="modal" id="8aq-af-mIA"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -54,7 +57,33 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="148" y="321"/>
+            <point key="canvasLocation" x="-52" y="321"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="jCb-7t-C0L">
+            <objects>
+                <viewController id="8ye-Vh-ojc" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="I3H-u5-PbR"/>
+                        <viewControllerLayoutGuide type="bottom" id="aXK-Eq-P4C"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Igu-L7-ql7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Congratulation!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ieq-q2-Hou">
+                                <rect key="frame" x="96" y="273" width="127" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="WFK-Pl-4XB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="378" y="316"/>
         </scene>
     </scenes>
 </document>
