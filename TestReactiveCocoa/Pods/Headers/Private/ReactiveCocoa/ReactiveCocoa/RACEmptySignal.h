@@ -1,1 +1,1 @@
-../../../../ReactiveCocoa/ReactiveCocoa/Objective-C/RACEmptySignal.h
+../../../../ReactiveCocoa/ReactiveCocoaFramework/ReactiveCocoa/RACEmptySignal.h

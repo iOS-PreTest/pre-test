@@ -1,4 +1,4 @@
 platform :ios, '8.0'
 use_frameworks!
 
-pod 'ReactiveCocoa'
+pod 'ReactiveCocoa', '2.1.8'
